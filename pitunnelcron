@@ -1,0 +1,1 @@
+*/1 * * * * /bin/bash -c ~/pitunnel.sh >> pitunnel.log 2>&1
