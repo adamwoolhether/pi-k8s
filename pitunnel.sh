@@ -4,12 +4,12 @@
 # Configure proper vars below and set cron job to run this script 
 # To login from VM: ssh -p 6000 pi@localhost
 
-USERNAME=
-CLOUDIP=
+USERNAME=adamwoolhether
+CLOUDIP=10.10.10.10
 NOW=$(date)
+
 piTunnel(){
      /usr/bin/ssh -N -R 6000:localhost:22 $USERNAME@$CLOUDIP
-
      if [[ $? -eq 0 ]]; then
          echo "$NOW Tunnel to pibastion created successfully."
      else
