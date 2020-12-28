@@ -31,5 +31,5 @@ sudo chmod +x ${HOME}/pitunnel.sh
 
 sudo crontab -u ubuntu - <<EOF
 # Automate connection to Cloud instance for ssh tunneling
-*/1 * * * * /bin/bash -c ~/pitunnel.sh >> pitunnel.log 2>&1
+*/1 * * * * /bin/bash -c ~/pibast.sh >> pitunnel.log 2>&1
 EOF
