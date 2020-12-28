@@ -27,7 +27,7 @@ if [[ \$? -ne 0 ]]; then
      fi
 EOF
 
-sudo chmod +x ${HOME}/pitunnel.sh
+sudo chmod +x ${HOME}/pibast.sh
 
 sudo crontab -u ubuntu - <<EOF
 # Automate connection to Cloud instance for ssh tunneling
